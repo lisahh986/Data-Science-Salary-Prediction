@@ -16,6 +16,9 @@ EJ is converted from A, B categories to 0 or 1.
 **Description**
 
 <sub>This challenge consists of the following subsections:
-•	Use Pandas to read, clean, and fill missed columns to complete data into Training and Testing Sets
-•	Making predictions with Decision Tree Classifier
-•	Improve by changing the algorithm with Random Forest classifier </sub>
+  
+*	Use Pandas to read, clean, and fill missed columns to complete data into Training and Testing Sets
+  
+*	Making predictions with Decision Tree Classifier
+  
+*	Improve by changing the algorithm with Random Forest classifier </sub>
