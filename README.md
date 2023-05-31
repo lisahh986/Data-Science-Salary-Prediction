@@ -1,7 +1,6 @@
 ![Background](https://github.com/lisahh986/ICR-Related-Conditions/assets/119891031/644f1129-a966-4e14-9963-d29519288ecf)
 
-
-# Background : Identifying Age-Related Conditions 
+## Background : Identifying Age-Related Conditions 
 
 The age is just a number but a whole host of health issues come with aging. From heart disease and dementia to hearing loss and arthritis, aging is a risk factor for numerous diseases and complications. The growing field of bioinformatics includes research into interventions that can help slow and reverse biological aging and prevent major age-related ailments. Data science could have a role to play in developing new methods to solve problems with diverse data, even if the number of samples is small. 
 Today, i will create a model trained on measurements of health characteristics to predict if a person has any of three medical conditions. I will predict if the person has one or more of any of the three medical conditions (Class 1), or none of the three medical conditions (Class 0).
