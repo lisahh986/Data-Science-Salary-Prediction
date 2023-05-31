@@ -20,6 +20,18 @@ EJ is converted from A, B categories to 0 or 1.
 
 <sub>This challenge consists of the following subsections:
 *	Use Pandas to read, clean, and fill missed columns to complete data into Training and Testing Sets
+ 
 *	Making predictions with Decision Tree Classifier
-*	Improve by changing the algorithm with Random Forest classifier 
+*	Improve by changing the algorithm with the Random Forest classifier 
  </sub>
+ 
+ **Summary**
+ 
+ <sub>The Random Forest Classifier fitted with data performed much better than the model fitted with confusion matrix data due to the data being balanced and generating a higher accuracy score, indicating that the model will make extremely fewer mistakes.
+ </sub>
+ ![Confusion Matrix_DecisionTree](https://github.com/lisahh986/ICR-Related-Conditions/assets/119891031/16343031-50e5-4123-aaad-b7637d42605a)
+
+![Randomeforest](https://github.com/lisahh986/ICR-Related-Conditions/assets/119891031/5abab84a-bdaf-4efc-8110-eeafc75818f6)
+
+
+
