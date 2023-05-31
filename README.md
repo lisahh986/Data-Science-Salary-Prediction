@@ -9,7 +9,7 @@ Today, i will create a model trained on measurements of health characteristics t
 Id Unique identifier for each observation.  
 AB-GL Fifty-six anonymized health characteristics. All are numeric except for EJ, which is categorical.  
 Class A binary target: 1 indicates the subject has been diagnosed with one of the three conditions, 0 indicates they have not.
-ID column does not need for analysis, I removed it
+I removed ID column cause it is not necessary for analysis
 EJ is converted from A, B categories to 0 or 1.
 </sub>
 
