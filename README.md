@@ -19,7 +19,7 @@ train.csv - The training data set is sourced from Kaggle.com. It has over 617 ro
 
 This challenge consists of the following subsections:
 
-- Use Pandas to read, clean, and fill missed columns to complete data into Training and Testing Sets.
+- Use Pandas to read, clean, and impute missing values to complete data. Split them into Training and Testing Sets.
 - Making predictions with Decision Tree Classifier.
 - Improve by changing the algorithm with the Random Forest classifier. 
  
