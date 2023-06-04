@@ -11,7 +11,7 @@ We implement the goal of this analysis to examine a myriad of factors and their 
 Data Science Job Salaries Dataset contains 11 columns, each is:
 1.	work_year: The year the salary was paid.
 2.	experience_level: The level of experience a person holds in a particular job. This is a key determinant in salary calculation as typically, more experienced individuals receive higher pay due to their advanced skills and knowledge.
-3.	employment_type: The nature of the employment contract such as full-time, part-time, or contractual can greatly influence the salary. Full-time employees often have higher annual salaries compared to their part-time or contractual counterparts.
+3.	employment_type: The nature of the employment contract such as full-time, part-time, or contractual can greatly influence the salary. Full-time employees or contractors often have higher annual salaries compared to their part-time.  
 4.	job_title: The role an individual holds within a company. Different roles have different salary scales based on the responsibilities and skills required. For example, managerial roles typically pay more than entry-level positions.salary: The total gross salary amount paid.
 5.	salary_currency: The currency of the salary paid as an ISO 4217 currency code.
 6.	Salary in usd: The total gross salary amount converted to US dollars. This allows for a uniform comparison of salaries across different countries and currencies
@@ -20,7 +20,10 @@ Data Science Job Salaries Dataset contains 11 columns, each is:
 9.	company_location: The location of the employer's main office or the branch that holds the contract. Companies in different locations may offer different salary scales due to varying economic conditions and cost of living.
 10.	company_size: The median number of employees in the company during the work year. Larger companies often have structured salary scales and may offer higher salaries due to economies of scale and larger revenue streams.
 
-## Prepare: 
+## Prepare:
+Data is sourced from [Kaggle](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023)  and normalize it into seperate SQL tables ( see details tables in resources).  
+Salary_in_currency is dropped while converting.
+
 In this analysis, we have chosen to employ a variety of models, namely Logistic Regression , RandomForest. These algorithms are known for their distinct strengths when dealing with diverse data types and structures : 
 
 
