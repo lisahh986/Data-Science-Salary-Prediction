@@ -24,7 +24,7 @@ Data Science Job Salaries Dataset contains 11 columns, each is:
 Data is sourced from [Kaggle](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023)  and normalize it into seperate SQL tables ( see details tables in resources).  
 Salary_in_currency is dropped while converting.
 
-In this analysis, we have chosen to employ a variety of models, namely Logistic Regression , RandomForest. These algorithms are known for their distinct strengths when dealing with diverse data types and structures : 
+In this analysis, we have chosen to employ a variety of models, namely LinearRegression, ElasticNet, BayesianRidge, GradientBoostingRegressor, SVR. These algorithms are known for their distinct strengths when dealing with diverse data types and structures 
 
 
 ![Dashboard](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/96ce719e-39cb-4c6c-86cd-4a0ccbadffcf)
