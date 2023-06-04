@@ -4,6 +4,9 @@
 Data science is known as a swiftly advancing profession. Through provided dataset on Kaggle.com.
 We implement the goal of this analysis to examine a myriad of factors and their complex interconnections with the aim of predicting salary outcomes with precision. This study strives to furnish valuable insights into the current salary trajectories in the realm of data science, simultaneously laying a robust foundation for explorations into the impact of key determinants like experience level, employment type, company size, and geographical location on wage structures.
 
+![Salaries](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/38c36d41-1ff3-4ea7-bf41-f0f38c050dcf)
+
+
 ## Dataset:
 Data Science Job Salaries Dataset contains 11 columns, each is:
 1.	work_year: The year the salary was paid.
@@ -17,6 +20,11 @@ Data Science Job Salaries Dataset contains 11 columns, each is:
 9.	company_location: The location of the employer's main office or the branch that holds the contract. Companies in different locations may offer different salary scales due to varying economic conditions and cost of living.
 10.	company_size: The median number of employees in the company during the work year. Larger companies often have structured salary scales and may offer higher salaries due to economies of scale and larger revenue streams.
 
+## Prepare: 
+In this analysis, we have chosen to employ a variety of models, namely Logistic Regression , RandomForest. These algorithms are known for their distinct strengths when dealing with diverse data types and structures : 
+
+
+![Dashboard](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/96ce719e-39cb-4c6c-86cd-4a0ccbadffcf)
 
 
 
