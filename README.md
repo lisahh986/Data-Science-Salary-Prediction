@@ -2,7 +2,11 @@
 
 ## Background : 
 Data science is known as a swiftly advancing profession. Through provided dataset on Kaggle.com.
-We implement the goal of this analysis to examine a myriad of factors and their complex interconnections with the aim of predicting salary outcomes with precision. This study strives to furnish valuable insights into the current salary trajectories in the realm of data science, simultaneously laying a robust foundation for explorations into the impact of key determinants like experience level, employment type, company size, and geographical location on wage structures.
+We implement the goal of this analysis to examine a myriad of factors and their complex interconnections with the aim of predicting salary outcomes with precision.
+This study strives to furnish valuable insights into the current salary trajectories in the realm of data science, simultaneously laying a robust foundation for explorations into the impact of key determinants like experience level, employment type, company size, and geographical location on wage structures detailed as:
+* Which size of the company effect Salary?
+* The correlation of the level of experience to Salary?
+* Which primary country of residence of the employee is getting the highest pay?
 
 ![Salaries](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/38c36d41-1ff3-4ea7-bf41-f0f38c050dcf)
 
