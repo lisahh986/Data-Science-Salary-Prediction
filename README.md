@@ -27,6 +27,18 @@ In this analysis, we have chosen to employ a variety of models, namely Logistic 
 ![Dashboard](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/96ce719e-39cb-4c6c-86cd-4a0ccbadffcf)
 
 
+![Company size](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/4fa2068e-5c33-4bb8-b0b4-8f8e179b4782)
+
+![Experience Level](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/7ded629d-8d0a-4e71-901c-dbf0b324b0f5)
+
+![Employment Type](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/bea55a58-5ffe-42a8-b326-8655e2511d32)
+
+![Top 10 employees residence](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/440f5ea7-bbb5-4555-a3d8-cd7a3d0a30cb)
+
+![Salaries USD by experience Level](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/63c9eb92-cbe0-440a-92f8-943f1e282c28)
+
+![Average by Country](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/b8429754-f0b0-439e-ae15-cd54e020422c)
+
 
 
 
