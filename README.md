@@ -8,7 +8,8 @@ This study strives to furnish valuable insights into the current salary trajecto
 To achieve the goal, we use machine learning and dataset that containing information on data science job salaries to visualize insight with related features to answer related questions : 
 * What's the top 10 Highest Annual Salaries with Job Titles?
 * Do paid salaries related experience level?
-* The correlation of average salary to job type? 
+* The correlation of average salary to job type?    
+
 ![Background 1](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/62e1a71c-7a69-41a8-bcec-6d49e4fdc648)  
 
 ## Dataset:
