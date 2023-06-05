@@ -3,9 +3,9 @@
 
 # Background: 
 Data science is known as a swiftly advancing profession. Through provided dataset on Kaggle.com.
-We implement the goal of this analysis to examine a myriad of factors and their complex interconnections with the aim of predicting salary outcomes with precision.
+We implement the goal of this analysis to examine a myriad of factors and their complex interconnections with the aim of predicting salary outcomes.
 This study strives to furnish valuable insights into the current salary trajectories in the realm of data science, simultaneously laying a robust foundation for explorations into the impact of key determinants like job title, experience level, employment type, company size on wage structures. 
-To achieve the goal, we use machine learning and dataset that containing information on data science job salaries to visualize insight with related features to answer related questions : 
+To achieve the goal, we use machine learning and dataset that contains information on data science job salaries to visualize insight with related features to answer related questions : 
 * What's the top 10 Highest Annual Salaries with Job Titles?
 * Do paid salaries related experience level?
 * The correlation of average salary to job type?    
