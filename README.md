@@ -13,7 +13,7 @@ To achieve the goal, we use machine learning and dataset that contains informati
 ![Background 1](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/62e1a71c-7a69-41a8-bcec-6d49e4fdc648)  
 
 ## Dataset:
-Data Science Job Salaries Dataset contains 3,755 rows and 11 columns, each is:
+Data Science Job Salaries Dataset contains 11 columns, each is:
 1.	work_year: The year the salary was paid.
 2.	experience_level: The level of experience a person holds in a particular job. This is a key determinant in salary calculation as typically, more experienced individuals receive higher pay due to their advanced skills and knowledge.
 3.	employment_type: The nature of the employment contract such as full-time, part-time, or contractual can greatly influence the salary. Full-time employees or contractors often have higher annual salaries compared to their part-time.  
