@@ -63,9 +63,9 @@ Install conda-forge category_encoders into Python data package. Open the starter
 
 
 ### Make Prediction :
-1. Create a Logistic Regression Model with the Original Data
-Ultilize Linear Regression by using the training data (X_train and y_train).
-Save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model.
+1. In this analysis, we have chosen to employ a variety of models, namely LinearRegression, ElasticNet, BayesianRidge, GradientBoostingRegressor, SVR. These algorithms are known for their distinct strengths when dealing with diverse data types and structures.
+By using the training data (X_train and y_train).
+Save the predictions on the testing data labels by using the testing feature data (X_test) 
 Evaluate the model’s performance by calculating the R-square score of the model.
 ![Score of Linear Regression](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/db55083f-34d1-425f-b863-e624a5a9b701)
 
@@ -94,7 +94,11 @@ Through Histogram:
 * "work year“: Wages in 2023 is higher growth than in other years 
 * "salary in USD“: The range from $150,000 is paid popularly
 * "remote ratio”: On-site jobs take most of the job types in this industry.
-* ![image](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/87351c27-693a-4352-9236-69d3c7f2e32e)
+The result of the chart shows that top highest annual salary with job titles is Data Science Tech Lead ( $375,000/year) 
+The bubble chart performed the employment type of Full-time made the highest average salary.
+
+
+
 
 
 
