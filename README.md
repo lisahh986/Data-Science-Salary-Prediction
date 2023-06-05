@@ -75,7 +75,8 @@ Evaluate the model’s performance by calculating the R-square score of the mode
 ![SVR](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/7bf5f024-52b7-4d2b-9f27-4c60250c4ac4)
 ![Score of Bayesian Ridge](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/a0fca509-5b96-4e18-9d45-945bff15a8f6)
 ![Score of Elastic Net](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/498202a8-f699-411b-8332-fe7a77973d97)
-![Hyberparameters tunning](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/d4aa0e3a-724f-433c-9ec0-17303d16f20e)
+
+![Hyberparameters tunning](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/95ae48f8-3e89-4d19-bbb9-75568ca2863b)
 
 # <u>Analysis result</u>: 
 Based on several algorithms showed R-score:   
