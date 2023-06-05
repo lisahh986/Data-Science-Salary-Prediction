@@ -89,6 +89,12 @@ Based on several algorithms showed R-score:
 
 All are close 1 are good to tell us these factors are strongly relative.  
 Linear regression analysis revealed that job title, experience level, employment type, company size, and company location are robust predictors of salary. These models are expected to provide more accurate results with a lower mean error absolute value with a larger dataset. 
+### Additional result :
+Through Histogram: 
+* "work year“: Wages in 2023 is higher growth than in other years 
+* "salary in USD“: The range from $150,000 is paid popularly
+* "remote ratio”: On-site jobs take most of the job types in this industry.
+* ![image](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/87351c27-693a-4352-9236-69d3c7f2e32e)
 
 
 
