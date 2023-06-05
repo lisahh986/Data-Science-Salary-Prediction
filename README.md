@@ -73,11 +73,9 @@ Evaluate the model’s performance by calculating the R-square score of the mode
 2. Define a few training algorithms with their default parameters to test scores : 
 ![GradientBoostingRegressor](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/d593f357-2b4a-4ecf-a2cc-05c2150a86c8)
 ![SVR](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/7bf5f024-52b7-4d2b-9f27-4c60250c4ac4)
-![reading data](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/b6291e45-e628-4bc7-b10c-7acdfc92f099)
-![GradientBoostingRegressor](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/44e39d79-28f5-4225-82e3-5bc0faa6de58)
-
+![Score of Bayesian Ridge](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/a0fca509-5b96-4e18-9d45-945bff15a8f6)
+![Score of Elastic Net](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/498202a8-f699-411b-8332-fe7a77973d97)
 ![Hyberparameters tunning](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/d4aa0e3a-724f-433c-9ec0-17303d16f20e)
-
 
 # <u>Analysis result</u>: 
 Based on several algorithms showed R-score:   
