@@ -1,15 +1,15 @@
-![Background 1](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/62e1a71c-7a69-41a8-bcec-6d49e4fdc648)  
+![Salaries](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/38c36d41-1ff3-4ea7-bf41-f0f38c050dcf)
+ 
 
 # Background: 
 Data science is known as a swiftly advancing profession. Through provided dataset on Kaggle.com.
 We implement the goal of this analysis to examine a myriad of factors and their complex interconnections with the aim of predicting salary outcomes with precision.
-This study strives to furnish valuable insights into the current salary trajectories in the realm of data science, simultaneously laying a robust foundation for explorations into the impact of key determinants like experience level, employment type, company size, and geographical location on wage structures detailed as:
-* Which size of the company effect Salary?
-* The correlation of the level of experience to Salary?
-* Which primary country of residence of the employee is getting the highest pay?
-
-![Salaries](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/38c36d41-1ff3-4ea7-bf41-f0f38c050dcf)
-
+This study strives to furnish valuable insights into the current salary trajectories in the realm of data science, simultaneously laying a robust foundation for explorations into the impact of key determinants like job title, experience level, employment type, company size on wage structures. 
+To achieve the goal, we use machine learning and dataset that containing information on data science job salaries to visualize insight with related features to answer related questions : 
+* What's the top 10 Highest Annual Salaries with Job Titles?
+* Do paid salaries related experience level?
+* The correlation of average salary to job type? 
+![Background 1](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/62e1a71c-7a69-41a8-bcec-6d49e4fdc648)  
 
 ## Dataset:
 Data Science Job Salaries Dataset contains 3,755 rows and 11 columns, each is:
@@ -28,7 +28,7 @@ Data Science Job Salaries Dataset contains 3,755 rows and 11 columns, each is:
 Data is sourced from [Kaggle](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023)  and normalized into separate SQL tables ( see details tables in resources). Salary_in_currency is dropped while converting.
 
 # Content: 
-* Set up training and checking data  
+* Exporatory data  
 * Visualization
 * Data opimization
 * Analysis result
@@ -44,38 +44,52 @@ Install conda-forge category_encoders into Pythondata package. Open the starter 
 3.Perform data for better understanding.
 ![better understanding](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/7ef946ca-b0fe-4c56-800c-dfb2c9d89113)  
 
+## Visualization:
+1. Top 10 : Job titles and associated average salary
+![Top 10 salaries with job title](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/3f9b45da-d343-44b4-af13-96ca38919ee5)
+![Top 10 highest anual salaries with job title](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/9995cb32-cb93-41e0-91f4-4b50875adb90)
+
+2. Salaries according to Experience Level
+![Salary based on experiences level](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/eabba0eb-792d-4c34-9042-013d1fce32bb)
+
+3. Job Type and Average Salary
+![Job type and average salary](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/c7dafb09-1162-4385-8a62-cd07be62271d)
 
 ## Data optimization
 * Employ histograms to find which values are most common and which values are least common in "work_year","salary_in_usd", "remote_ratio
 ![Histogram](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/612ad59a-2034-4d2b-b1b6-5429dd6ab914)
+* Scaling Data![Scaled data](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/e44266e7-f2f8-4e6d-874e-5f0254c1e967)
 
-### <u>Result:</u>
-* The salaries have kept increasing from 2021 through 2023. 2023 is the highest salary.  
-* 
-* The remote ratio of On-Site has the highest salary. 
-*
 
 ### Make Prediction :
 1. Create a Logistic Regression Model with the Original Data
 Ultilize Linear Regression by using the training data (X_train and y_train).
 Save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model.
 Evaluate the model’s performance by calculating the R-square score of the model.
-![LinearRegression R-square score](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/73d535bd-35d6-46d0-b6ba-38ec3da60294)
+![Score of Linear Regression](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/db55083f-34d1-425f-b863-e624a5a9b701)
+
 
 2. Define a few training algorithms with their default parameters to test scores : 
-![Algorithms](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/6a5fe9d8-fd20-44ef-b448-fd55cd17e8ec)
-![GradientBoostingRegressor](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/9b49060c-ef62-4770-baa0-5afc49f96733)
+![GradientBoostingRegressor](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/d593f357-2b4a-4ecf-a2cc-05c2150a86c8)
+![SVR](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/7bf5f024-52b7-4d2b-9f27-4c60250c4ac4)
+![reading data](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/b6291e45-e628-4bc7-b10c-7acdfc92f099)
+![GradientBoostingRegressor](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/44e39d79-28f5-4225-82e3-5bc0faa6de58)
 
-### <u>Question:</u> : How well does the logistic regression model predict?
-### <u>Result:</u> : 
-R-square scores are close 1 are good to tell us these factors are strongly relative
-Linear regression analysis revealed that job title, experience level, employment type, company size, and company location are robust predictors of salary. The linear regression model is expected to provide more accurate results with a lower mean error absolute value with a larger dataset.  
-* Elastic Net
-* Bayesian Ridge
-* Gradient Boosting
-* SVR 
+![Hyberparameters tunning](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/d4aa0e3a-724f-433c-9ec0-17303d16f20e)
 
-# <u>Analysis result</u>:
+
+# <u>Analysis result</u>: 
+Based on several algorithms showed R-score:   
+* Elastic Net: 0.99
+* Bayesian Ridge Algorithm: 0.99
+* Gradient Boosting Algorithm: 0.99
+* SVR Algorithm: 0.99
+* Linear regression : 0.99
+* R-square scores : 0.99  
+
+All are close 1 are good to tell us these factors are strongly relative.  
+Linear regression analysis revealed that job title, experience level, employment type, company size, and company location are robust predictors of salary. These models are expected to provide more accurate results with a lower mean error absolute value with a larger dataset. 
+
 
 
 
