@@ -23,19 +23,19 @@ Data Science Job Salaries Dataset contains 3,755 rows and 11 columns, each is:
 7.	employee_residence: The primary country of residence of the employee, denoted by an ISO 3166 code. The cost of living and prevailing wage rates in the employee's country of residence can impact salary levels.
 8.	remote_ratio: The overall amount of work done remotely
 9.	company_location: The location of the employer's main office or the branch that holds the contract. Companies in different locations may offer different salary scales due to varying economic conditions and cost of living.
-10.	company_size: The median number of employees in the company during the work year. Larger companies often have structured salary scales and may offer higher salaries due to economies of scale and larger revenue streams.
+10.	company_size The median number of employees in the company during the work year. Larger companies often have structured salary scales and may offer higher salaries due to economies of scale and larger revenue streams.
 
 ## Prepare:
 Data is sourced from [Kaggle](https://www.kaggle.com/datasets/arnabchaki/data-science-salaries-2023)  and normalized into separate SQL tables ( see details tables in resources). Salary_in_currency is dropped while converting.
 
 # Content: 
-* Exporatory data  
+* Exploratory data  
 * Visualization
-* Data opimization
+* Data optimization
 * Analysis result
 
-## Set up data: 
-Install conda-forge category_encoders into Pythondata package. Open the starter code notebook and then use it to complete the following steps.
+## Exploratory data: 
+Install conda-forge category_encoders into Python data package. Open the starter code notebook and then use it to complete the following steps.
 1. Read the CSV file as a Pandas DataFrame.
 ![reading data](https://github.com/lisahh986/Data-Science-Salary-Prediction/assets/119891031/9bd15877-9cce-49a0-b219-cce2f01c515d)
 
