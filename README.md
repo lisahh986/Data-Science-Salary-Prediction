@@ -88,7 +88,7 @@ Based on several algorithms showed R-score:
 * R-square scores : 0.99  
 
 All are close 1 are good to tell us these factors are strongly relative.  
-Linear regression analysis revealed that job title, experience level, employment type, company size, and company location are robust predictors of salary. These models are expected to provide more accurate results with a lower mean error absolute value with a larger dataset. 
+Linear regression analysis revealed that job title, experience level, employment type, company size are robust predictors of salary. These models are expected to provide more accurate results with a lower mean error absolute value with a larger dataset. 
 ### Additional result :
 Through Histogram: 
 * "work year“: Wages in 2023 is higher growth than in other years 
